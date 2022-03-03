@@ -32,3 +32,14 @@ $theme-colors: (
 
 // 6. Add additional custom code here
 @import "../scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.fa-star-of-david{
+    color:$primary;
+}

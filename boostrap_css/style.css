@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -17158,6 +17159,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+h1, .h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-star-of-david {
+  color: #00126D;
 }
 
 /*# sourceMappingURL=style.css.map */

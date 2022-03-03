@@ -7,318 +7,370 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bootstrap Portfolio ">
     <meta name="keywords" content="HTML,boostrap_lib">
-    <meta name="author" content="ankita randive">
-    <!--boostrap CDN-->
-    <link href="boostrap_css/bootstrap.css" rel="stylesheet">
-    <!--plugin for animation-->
-    <link href="vendor/css/glightbox.css" rel="stylesheet">
-    <link href="vendor/css/aos.css" rel="stylesheet">
-<!--coustm scss to style.css-->
-    <link href="boostrap_css/style.css" rel="stylesheet">
+    <meta name="author" content="Hardik Jaipuria">
 
-    
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon/favicon-16x16.png">
+    <link rel="manifest" href="asset/favicon/site.webmanifest">
+
     <title>Portfolio</title>
 
+    <!--Boostrap-->
+    <link href="boostrap_css/bootstrap.css" rel="stylesheet">
+    <!--Vendor Plugins-->
+    <link href="vendor/css/glightbox.css" rel="stylesheet">
+    <link href="vendor/css/aos.css" rel="stylesheet">
+    <!--coustm style.css-->
+    <link href="boostrap_css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg bg-primary navbar-white ">
-        <div class="container-fluid">
-
+    <!--Navigation Menu-->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-white">
+        <div class="container">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="col-xl-9">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item px-3">
-
-                            <a class="nav-link active text-white" aria-current="page" href="#"><i
-                                    class="fa-solid fa-house p-3"></i>Home</a>
-                        </li>
-                        <li class="nav-item px-3">
-
-                            <a class="nav-link text-white" href="#" ><i class="fa-solid fa-briefcase p-3"></i>Work
-                                Experience</a>
-                        </li>
-                        <li class="nav-item px-3">
-
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-square-rss p-3"></i>Blogs</a>
-                        </li>
-                        <li class="nav-item px-3">
-
-                            <a class="nav-link text-white " href="#"><i class="fa-solid fa-address-book p-3"></i>contact</a>
-                        </li>
-
-                    </ul>
-                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white py-3" aria-current="page" href="#"><i
+                                class="fa-solid fa-house px-2"></i>Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white py-3" href="#"><i class="fa-solid fa-briefcase px-2"></i>Work
+                            Experience</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link text-white py-3" href="#"><i
+                                class="fa-solid fa-square-rss px-2"></i>Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 " href="#"><i
+                                class="fa-solid fa-address-book px-2"></i>Contact</a>
+                    </li>
+                </ul>
                 <form class="col-xl-2 text-center my-2">
-                    <input class="form-control me-2 pr-3 bg-white" style="width: 100%;" type="search" placeholder="Search" aria-label="Search">
-                    
+                    <div class="input-group">
+                        <input class="form-control me-2 pr-3 bg-white" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="button"> <i id="icon"
+                                class="fa fa-search"></i></button>
+                    </div>
                 </form>
-
             </div>
-        </div>
         </div>
     </nav>
-    <section class="container-fluid bg-secondary mt-3">
-        <div class="row d-flex justify-content-evenly">
-            <div class="col-md-4 col-lg-4 text-center bg-white py-2 my-3 border-bottom-0">
-                <img src="../Portfolio/asset/Picture1.png" class="rounded">
-                <h3 class="text-primary ">Hardik Jaipurai</h3>
-            </div>
-            <div class="col-md-7 col-lg-7 bg-white my-3 border border-primary" >
-                <h3 class="text-primary text-decoration-underline">Highlights</h3>
-                <div>
-                    <i class="fa-solid fa-star-of-david color: primary px-4 py-4"></i>
-                    Eight years of Experience as full stackdeveloper
-                </div>
-                <div>
-                    <i class="fa-solid fa-star-of-david px-4 py-4"></i>
-                    Contributed to IT Projects in <b>Banking & Financial</b> Domain
-                </div>
-                <div>
-                    <i class="fa-solid fa-star-of-david px-4 py-4" style="text-align: justify;"></i>
-                    <span class="text-wrap"> Around one year of <b>experience as IT Project Lead </b> at onsite
-                    client location in Switzerland working with thebusiness team.</span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-star-of-david px-4 py-4"></i>
-                    <b>Handled production</b> release & deployment for large & complex java enterprise projects
-                </div>
-                <div>
-                    <i class="fa-solid fa-star-of-david px-4 py-4"></i>
-                    <b>Appreciation letter</b> from client for the last four year of the project worked on
-                </div>
-                <div>
-                    <i class="fa-solid fa-star-of-david px-4 py-4"></i>
-                    <b>Oracle Certified</b> JavaProgrammer Standard Edition 6
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-    <!---->
-      <section class="container-fluid bg-secondary py-2 px-5 my-3 me-auto" >
-        <div class="text-primary text-decoration-underline"><h3>Skills</h3></div> 
-        <div class="row   border  px-3 py-3 justify-content: space-between">
-            <div class=" col-md-5 bg-white border border-primary me-5">
-                
-                     <div class="text-primary "><h4>Frontend</h4></div>   
-                    
-                    <div class="progress mb-3 mt-3">
-                        
-                            <img src="../Portfolio/asset/icons/html5-1175210.svg " style="height:2rem; width:50px" class="d-inline pr-2">
-                        
-                            <div class="progress-bar d-inline" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                            aria-valuemax="100">
-                    </div>
-                    </div>
-                
-            
-                
-                    
-                    <div class="progress mb-3">
-                        
-                        <img src="../Portfolio/asset/icons/css3-1175239.svg " style="height:25px; width:25px" class="d-inline pr-2">
-                        <div class="progress-bar d-inline" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                            aria-valuemax="100">
-                        </div>
-                    </div>
-                
-            
-                
-                <div class="progress  mb-3 d-inline">
-                    <img src="../Portfolio/asset/icons/javascript-1174950.svg" style="height:25px; width:25px">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                    </div>
-                </div>
-           
-                
-                <div class="progress  mb-3">
-                    <img src="../Portfolio/asset/icons/html5-1175210.svg " style="height:50px; width:50px"class=" d-inline">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                    </div>
-                </div>
-            </div>
-            
-            <div class=" col-md-6 bg-white border border-primary ms-5">
-                <div class="text-primary "><h4>Backend</h4></div> 
-                <div class="progress  mb-3 mt-3">
-                    <img src="../Portfolio/asset/icons/java-1174953.svg " style="height:50px; width:50px d-inline;">
-                    <div class="progress-bar" role="progressbar" style=" height:2rem; width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                    </div>
-                </div>
-            
-                
-                <div class="progress  mb-3">
-                    <img src="../Portfolio/asset/icons/python-1175116.svg " style="height:25px; width:25px d-inline">
-                    <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                    </div>
-                </div>
-            </div>
-            <!--<div class="col-md-12 my-3 bg-white ">
-                <div class="border my-3">Tool BOx</div>
-                <div class="border py-4">
-                    <img src="../Portfolio/asset/icons/git-1175220.svg" style="height:50px; width:50px">
-                    <img src="../Portfolio/asset/icons/visualstudio-1174964.svg" style="height:50px; width:50px">
-                </div>
-
-            </div>-->
-            <div id="accordion">
-                <div class="card border border-primary pl-1 mt-3">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h4 style="text-decoration: none;">Tool Box</h4>
-                      </button>
-                    </h5>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        <img src="../Portfolio/asset/icons/git-1175220.svg" class="px-2"style="height:100px; width:70px">
-                        <img src="../Portfolio/asset/icons/visualstudio-1174964.svg" style="height:50px; width:50px">
-                    </div>
-                  </div>
-                </div>
-        </div>
-    </section>
-    <section class="container-fluid py-3 mt-2 bg-secondary">
-        <div>
-            <div class=" py-2 text-primary text-decoration-underline" style=" padding-left:70px;  ">
-                <h4>Experience</h4>
-            </div>
-            <div class="row border border-primary mx-5  bg-white ">
-                <div class="col-lg-4">Associate at Cognizant</div>
-                <div class="col-lg-4">4years & 1month</div>
-                <div class="col-lg-4">25-Nov-2015 To 31-Dec-2019</div>
-            </div>
-            <div class=" bg-white border border-primary  mx-5">
-                <div class="row mx-2 py-3 ">Client: Swiss Bank</div>
-                <div class="row mx-2 py-3">Product:ESOP IT application</div>
-                <div class="d-flex flex-row-reverse text-right">
-                    <button type="button" class="btn btn-primary  mx-5 py-1 mb-2">Read More</button>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="row border border-primary mx-5 mt-2 bg-white">
-                <div class="col-lg-4">Software Engineering Analyst At Accenture</div>
-                <div class="col-lg-4">3years & 6month</div>
-                <div class="col-lg-4">23-May-2012 To 31-Oct-2015</div>
-            </div>
-            <div class=" bg-white border border-primary mx-5 ">
-                <div class="row mx-2 py-3">Client: Finnish Pension</div>
-                <div class="row mx-2 py-3">Product:Pension Management</div>
-                <div class="d-flex flex-row-reverse text-right">
-                    <button type="button" class="btn btn-primary  mx-5 py-1 mb-2">Read More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="container-fluid py-3 mt-2   bg-secondary">
-        <div class="row mx-5 my-4 ">
 
 
-            <div class="col-md-4">
-                <div class="card">
 
-                    <div class="card-header border border-primary"><i class="fa-solid fa-graduation-cap  text-center py-2 px-4"></i>Education</div>
+    <main>
+        <!--Highlight Section-->
+        <section class="bg-secondary mt-3">
+            <div class="container py-3">
+                <div class="row gy-3">
 
-                    <div class="card-body border border-primary">
-                        <div class=" pr-2 ">
-                            <span class="py-5 px-3">2012</span> <span class="text-wrap"> Bachelor of Engineering
-                            (Electronics Design Technology)
-                            From 
-                            Nagpur</span>
-                        </div>
-                        <div class=" pr-2 ">2008&nbspHigher Secondary<br>
-                            (Electronics Design Technology)<br>
-                            From <br>
-                            Nagpur
-                        </div>
-                        <div class=" pr-2 py-1 ">2006 &nbsp Secondary <br>
-                            Certificate from  Amravati<br>
-                            
-                            Nagpur
-                        </div>
-
+                    <!--Image -->
+                    <div class="col-md-4 text-center bg-white py-4 my-3 border border-primary shadow-lg">
+                        <img src="asset/Picture1.png" style="border-radius: 8rem;" class="img-thumnail">
+                        <h1 class="text-primary mt-3">Hardik Jaipuria</h1>
                     </div>
 
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card ">
-                    <div class="card-header border border-primary"><i class="fa-solid fa-globe text-center py-2 px-4"></i>Language</div>
-
-                    <div class="card-body border border-primary">
-                        <ul type="square">
-                            <li class="px-2 py-5">English</li>
-                            <li class="px-2 py-4">Hindi</li>
-                            <li class="py-4 px-2">Marathi</li>
+                    <!--Highlights -->
+                    <div class="col-md-8 bg-white my-3 border border-primary">
+                        <h1 class="text-primary text-decoration-underline pt-4 ps-3">Highlights</h1>
+                        <ul class="list-unstyled pt-4">
+                            <li>
+                                <i class="fa-solid fa-star-of-david ps-4"></i>
+                                <span class="ps-4 fs-4 "><strong>Eight years</strong> of experience as fullstack
+                                    developer</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star-of-david ps-4"></i>
+                                <span class="ps-4 fs-4">Contributed to IT Projects in <strong>Banking &
+                                        Financial</strong>
+                                    domain</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star-of-david ps-4"></i>
+                                <span class="ps-4 fs-4 text-wrap"> Around one year of <strong>experience as IT Project
+                                        Lead
+                                    </strong> at onsite
+                                    client location in Switzerland working with the business team.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star-of-david ps-4 "></i>
+                                <span class="ps-4 fs-4"><strong>Handled production</strong> release & deployment for
+                                    large &
+                                    complex java enterprise projects</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star-of-david ps-4"></i>
+                                <span class="ps-4 fs-4"><strong>Appreciation letter</strong> from client for the last
+                                    four
+                                    year of the project worked on</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star-of-david ps-4"></i>
+                                <span class="ps-4 fs-4"><strong>Oracle Certified</strong> Java Programmer Standard
+                                    Edition
+                                    6</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header border border-primary"><i class="fa-solid fa-globe text-center py-2 px-4 "></i>Hobbies</div>
-                    <div class="card-body border border-primary">
-                        <ul type="square">
-                            <li class="py-5 px-2">Documentation</li>
-                            <li class="py-4 px-2">Investment Idea</li>
-                            <li class="py-4 px-2">Garding</li>
-                        </ul>
+
+
+        <!--Skills Section-->
+        <section class="bg-secondary my-3">
+            <div class="container py-3 gy-3">
+                <h1 class="text-primary text-decoration-underline pb-3">Skills</h1>
+                <div class="row flex-nowrap ">
+
+                    <!--Front End Card-->
+                    <div class=" col-md-6 bg-white border border-primary">
+                        <h2 class="text-primary ">Frontend</h4>
+
+                            <div>
+
+                                <img src="asset/icons/html5-1175210.svg " class="img-fluid me-3 d-inline-block"
+                                    style="height:70px; width:70px">
+                                <div class="progress mt-5 d-inline-block" style="height: 20px;width: 80%;">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100">9.5/10
+                                    </div>
+                                </div>
+                            </div>
+
+                            <img src="asset/icons/css3-1175239.svg " class="img-fluid me-3 d-inline-block"
+                                style="height:70px; width:70px">
+                            <div class="progress mt-5 d-inline-block" style="height: 20px;width: 80%;">
+                                <div class="progress-bar " role="progressbar" style="width: 85%" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100">8.5
+                                </div>
+                            </div>
+
+                            <img src="asset/icons/javascript-1174950.svg" class="img-fluid me-3 d-inline-block"
+                                style="height:70px; width:70px">
+                            <div class="progress mt-5 d-inline-block" style="height: 20px;width: 80%;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100">8.5
+                                </div>
+                            </div>
+
+
+                            <img src="asset/icons/html5-1175210.svg" class="img-fluid me-3 d-inline-block"
+                                style="height:70px; width:70px">
+                            <div class="progress mt-5 d-inline-block" style="height: 20px;width: 80%;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100">8.5
+                                </div>
+                            </div>
+
+
+                    </div>
+
+                    <!--Backend-->
+                    <div class=" col-md-6 bg-white border border-primary ms-1">
+                        <h2 class="text-primary">Backend</h2>
+
+                        <img src="asset/icons/java-1174953.svg " class="img-fluid me-3 d-inline-block"
+                            style="height:70px; width:70px">
+                        <div class="progress  mt-5 d-inline-block" style="height: 20px;width: 80%;">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+
+                        <img src="asset/icons/python-1175116.svg " class="img-fluid me-3 d-inline-block"
+                            style="height:70px; width:70px">
+                        <div class="progress  mt-5 d-inline-block" style="height: 20px;width: 80%;">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Tool Box-->
+                <div class="row">
+                    <div class="col-md-12 p-0">
+                        <div class="card border border-primary">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <h2 style="text-decoration: none;">Tool Box</h2>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <img src="asset/icons/git-1175220.svg" class="px-2"
+                                        style="height: 70px; width:70px">
+                                    <img src="asset/icons/visualstudio-1174964.svg" style="height:50px; width:50px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--Experience Section-->
+        <section class="bg-secondary my-3">
+            <div class="container py-3 px-0 gy-5">
+                <h1 class="text-decoration-underline text-primary py-3">Experience</h1>
+
+                <!--Cognizant Experience-->
+                <div class="row border border-primary bg-white ">
+                    <div class="col-md-4 lead">Associate at Cognizant</div>
+                    <div class="col-md-4 lead">4years & 1month</div>
+                    <div class="col-md-4 lead">25-Nov-2015 To 31-Dec-2019</div>
+                    <hr>
+                    <div class="row mx-2 py-3 ">Client: Swiss Bank</div>
+                    <div class="row mx-2 py-3">Product: IT application</div>
+                    <div class="d-flex flex-row-reverse text-right">
+                        <button type="button" class="btn btn-primary  mx-5 py-1 mb-2">Read More</button>
+                    </div>
+                </div>
+
+                <!--Accenture Experience-->
+                <div class="row border border-primary  mt-2 bg-white">
+                    <div class="col-md-4 lead">Software Engineering Analyst At Accenture</div>
+                    <div class="col-md-4 lead">3years & 6month</div>
+                    <div class="col-md-4 lead">23-May-2012 To 31-Oct-2015</div>
+                    <hr>
+                    <div class="row mx-2 py-3">Client: Finnish Pension</div>
+                    <div class="row mx-2 py-3">Product:Pension Management</div>
+                    <div class="d-flex flex-row-reverse text-right">
+                        <button type="button" class="btn btn-primary  mx-5 py-1 mb-2">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <section class="bg-secondary my-3">
+            <div class="container py-3">
+                <div class="row px-0">
+
+                    <!--Education Card-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header border border-primary"><i
+                                    class="fa-solid fa-graduation-cap  text-center py-2 px-4"></i>Education</div>
+                            <div class="card-body border border-primary">
+                                <div class=" pr-2 ">
+                                    <span class="py-5 px-3">2012</span> <span class="text-wrap"> Bachelor of Engineering
+                                        (Electronics Design Technology)
+                                        From
+                                        Nagpur</span>
+                                </div>
+                                <div class=" pr-2 ">2008&nbspHigher Secondary<br>
+                                    (Electronics Design Technology)<br>
+                                    From <br>
+                                    Nagpur
+                                </div>
+                                <div class=" pr-2 py-1 ">2006 &nbsp Secondary <br>
+                                    Certificate from Amravati<br>
+                                    Nagpur
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Language Card-->
+                    <div class="col-md-4">
+                        <div class="card ">
+                            <div class="card-header border border-primary"><i
+                                    class="fa-solid fa-globe text-center py-2 px-4"></i>Language</div>
+
+                            <div class="card-body border border-primary">
+                                <ul type="square">
+                                    <li class="px-2 py-5">English</li>
+                                    <li class="px-2 py-4">Hindi</li>
+                                    <li class="py-4 px-2">Marathi</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Hobbies Card-->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header border border-primary"><i
+                                    class="fa-solid fa-globe text-center py-2 px-4 "></i>Hobbies</div>
+                            <div class="card-body border border-primary">
+                                <ul type="square">
+                                    <li class="py-5 px-2">Documentation</li>
+                                    <li class="py-4 px-2">Investment Idea</li>
+                                    <li class="py-4 px-2">Gardening</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!--Footer Section-->
+    <footer class="bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  py-5">
+                    <h3 class="text-middle">Thank you for visiting</h3>
+                    <a href="" class="link-light">click here to know more</a>
+                </div>
+                <div class="col-lg-4 py-5 px-5 justify-content-evenly">
+                    <div>
+                        <i class="fa-solid fa-location-dot  py-2 pe-3"></i>
+                        <span>
+                            <address>Flat No 5,Akruti Plaza, Near Postal Ground
+                                Yavatmal - 445001</address>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope py-2 pe-3"></i>
+                        <span>hardikjaipurai1501@gmail.com</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-address-book  py-2 pe-3"></i>
+                        <span>7972619038</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-align-middle py-5">Social</div>
+                    <div>
+                        <i class="fa-brands fa-facebook-square p-2"></i>
+                        <i class="fa-brands fa-twitter-square p-2"></i>
+                        <i class="fa-brands fa-linkedin p-2"></i>
                     </div>
                 </div>
             </div>
         </div>
-
-    </section>
-
-    <footer class="container-fluid bg-primary text-white border ">
-        <div class="row">
-            <div class="col-lg-4  py-5">
-                <div class="align-middel">
-                    <h3>Thank you form action visiting</h3>
-                </div>
-                <div><a href="" class="text-white">click here to know more</a></div>
-            </div>
-
-       
-        <div class="col-lg-4 text-left py-5 px-5 justify-content-evenly">
-            <i class="fa-solid fa-location-dot  py-2 pr-3"></i>
-            Flat No 5,Akruti Plaza, Near Postal <br>Ground<br>
-            Yavatmal - 445001<br>
-            <i class="fa-solid fa-envelope py-2 pr-3"></i>hardikjaipurai1501@gmail.com<br>
-            <i class="fa-solid fa-address-book  py-2 pr-3"></i>7972619038
-        </div>
-        <div class="col-lg-4">
-            <div class="align-middel text-white py-5">Social</div>
-            <div>
-                <i class="fa-brands fa-facebook-square p-2"></i>
-                <i class="fa-brands fa-twitter-square p-2"></i>
-                <i class="fa-brands fa-linkedin p-2"></i>
-            </div>
-        </div>
-    </div>
     </footer>
+
+    <!--Bootstrap JS-->
     <script src="boostrap_js/bootstrap.bundle.js"></script>
-    <!--font awosome-->
+    <!--Font Aweosome-->
     <script src="https://kit.fontawesome.com/fb5da5e911.js" crossorigin="anonymous"></script>
-    <!--animation js file -->
+    <!--Animation js file -->
     <script src="vendor/js/glightbox.js"></script>
     <script src="vendor/js/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>
