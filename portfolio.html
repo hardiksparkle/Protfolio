@@ -15,8 +15,7 @@
     <link href="vendor/css/aos.css" rel="stylesheet">
 <!--coustm scss to style.css-->
     <link href="boostrap_css/style.css" rel="stylesheet">
-    <!--boostrap CDN JS-->
-    <link href="boostrap_js/bootstrap.bundle.js">
+
     
     <title>Portfolio</title>
 
@@ -25,51 +24,51 @@
 <body>
     
     <nav class="navbar navbar-expand-lg bg-primary navbar-white ">
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="col-xl-8">
+                <div class="col-xl-9">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item px-3">
 
                             <a class="nav-link active text-white" aria-current="page" href="#"><i
-                                    class="fa-solid fa-house"></i>Home</a>
+                                    class="fa-solid fa-house p-3"></i>Home</a>
                         </li>
                         <li class="nav-item px-3">
 
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-briefcase"></i>Work
+                            <a class="nav-link text-white" href="#" ><i class="fa-solid fa-briefcase p-3"></i>Work
                                 Experience</a>
                         </li>
                         <li class="nav-item px-3">
 
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-square-rss"></i>Blogs</a>
+                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-square-rss p-3"></i>Blogs</a>
                         </li>
                         <li class="nav-item px-3">
 
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-address-book"></i>contact</a>
+                            <a class="nav-link text-white " href="#"><i class="fa-solid fa-address-book p-3"></i>contact</a>
                         </li>
 
                     </ul>
                 </div>
-                <form class="col-xl-4 text-center my-2">
-                    <input class="form-control me-2 bg-white" type="search" placeholder="Search" aria-label="Search">
-
+                <form class="col-xl-2 text-center my-2">
+                    <input class="form-control me-2 pr-3 bg-white" style="width: 100%;" type="search" placeholder="Search" aria-label="Search">
+                    
                 </form>
 
             </div>
         </div>
         </div>
     </nav>
-    <section class="container-fluid bg-secondary">
+    <section class="container-fluid bg-secondary mt-3">
         <div class="row d-flex justify-content-evenly">
-            <div class="col-md-4 col-lg-4 text-center bg-white py-2 my-3" style="border:1px solid black;  ">
-                <img src="../Portfolio/asset/Picture1.png" style="border-radius:55px ;">
-                <h3>Hardik Jaipurai</h3>
+            <div class="col-md-4 col-lg-4 text-center bg-white py-2 my-3 border-bottom-0">
+                <img src="../Portfolio/asset/Picture1.png" class="rounded">
+                <h3 class="text-primary ">Hardik Jaipurai</h3>
             </div>
-            <div class="col-md-7 col-lg-7 bg-white my-3 " style="border:1px solid black;">
-                <h3 style="text-decoration: underline; color:#00126D;">Highlights</h3>
+            <div class="col-md-7 col-lg-7 bg-white my-3 border border-primary" >
+                <h3 class="text-primary text-decoration-underline">Highlights</h3>
                 <div>
-                    <i class="fa-solid fa-star-of-david px-4 py-4"></i>
+                    <i class="fa-solid fa-star-of-david color: primary px-4 py-4"></i>
                     Eight years of Experience as full stackdeveloper
                 </div>
                 <div>
@@ -78,8 +77,8 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-star-of-david px-4 py-4" style="text-align: justify;"></i>
-                    Around one year of <b>experience as IT Project Lead </b> at onsite
-                    client location in Switzerland working with the business team.
+                    <span class="text-wrap"> Around one year of <b>experience as IT Project Lead </b> at onsite
+                    client location in Switzerland working with thebusiness team.</span>
                 </div>
                 <div>
                     <i class="fa-solid fa-star-of-david px-4 py-4"></i>
@@ -100,11 +99,11 @@
     </section>
     <!---->
       <section class="container-fluid bg-secondary py-2 px-5 my-3 me-auto" >
-
+        <div class="text-primary text-decoration-underline"><h3>Skills</h3></div> 
         <div class="row   border  px-3 py-3 justify-content: space-between">
-            <div class=" col-md-5 bg-white border me-5">
+            <div class=" col-md-5 bg-white border border-primary me-5">
                 
-                        
+                     <div class="text-primary "><h4>Frontend</h4></div>   
                     
                     <div class="progress mb-3 mt-3">
                         
@@ -119,6 +118,7 @@
                 
                     
                     <div class="progress mb-3">
+                        
                         <img src="../Portfolio/asset/icons/css3-1175239.svg " style="height:25px; width:25px" class="d-inline pr-2">
                         <div class="progress-bar d-inline" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
                             aria-valuemax="100">
@@ -136,15 +136,15 @@
            
                 
                 <div class="progress  mb-3">
-                    <img src="../Portfolio/asset/icons/html5-1175210.svg " style="height:25px; width:25px d-inline">
+                    <img src="../Portfolio/asset/icons/html5-1175210.svg " style="height:50px; width:50px"class=" d-inline">
                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
                         aria-valuemax="100">
                     </div>
                 </div>
             </div>
             
-            <div class=" col-md-6 bg-white border ms-5">
-                
+            <div class=" col-md-6 bg-white border border-primary ms-5">
+                <div class="text-primary "><h4>Backend</h4></div> 
                 <div class="progress  mb-3 mt-3">
                     <img src="../Portfolio/asset/icons/java-1174953.svg " style="height:50px; width:50px d-inline;">
                     <div class="progress-bar" role="progressbar" style=" height:2rem; width: 25%" aria-valuenow="25" aria-valuemin="0"
@@ -160,65 +160,82 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 my-3 bg-white ">
+            <!--<div class="col-md-12 my-3 bg-white ">
                 <div class="border my-3">Tool BOx</div>
                 <div class="border py-4">
                     <img src="../Portfolio/asset/icons/git-1175220.svg" style="height:50px; width:50px">
                     <img src="../Portfolio/asset/icons/visualstudio-1174964.svg" style="height:50px; width:50px">
                 </div>
 
-            </div>
+            </div>-->
+            <div id="accordion">
+                <div class="card border border-primary pl-1 mt-3">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h4 style="text-decoration: none;">Tool Box</h4>
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <img src="../Portfolio/asset/icons/git-1175220.svg" class="px-2"style="height:100px; width:70px">
+                        <img src="../Portfolio/asset/icons/visualstudio-1174964.svg" style="height:50px; width:50px">
+                    </div>
+                  </div>
+                </div>
         </div>
     </section>
     <section class="container-fluid py-3 mt-2 bg-secondary">
         <div>
-            <div class=" py-5;" style="text-decoration: underline; padding-left:70px; color:#00126D; ">
-                <h3>Experience</h3>
+            <div class=" py-2 text-primary text-decoration-underline" style=" padding-left:70px;  ">
+                <h4>Experience</h4>
             </div>
-            <div class="row border mx-5  bg-white">
+            <div class="row border border-primary mx-5  bg-white ">
                 <div class="col-lg-4">Associate at Cognizant</div>
                 <div class="col-lg-4">4years & 1month</div>
                 <div class="col-lg-4">25-Nov-2015 To 31-Dec-2019</div>
             </div>
-            <div class=" bg-white border mx-5">
+            <div class=" bg-white border border-primary  mx-5">
                 <div class="row mx-2 py-3 ">Client: Swiss Bank</div>
                 <div class="row mx-2 py-3">Product:ESOP IT application</div>
                 <div class="d-flex flex-row-reverse text-right">
-                    <button type="button" class="btn btn-primary  mx-5 py-3">Read More</button>
+                    <button type="button" class="btn btn-primary  mx-5 py-1 mb-2">Read More</button>
                 </div>
             </div>
         </div>
         <div>
-            <div class="row border mx-5 mt-2 bg-white">
+            <div class="row border border-primary mx-5 mt-2 bg-white">
                 <div class="col-lg-4">Software Engineering Analyst At Accenture</div>
                 <div class="col-lg-4">3years & 6month</div>
                 <div class="col-lg-4">23-May-2012 To 31-Oct-2015</div>
             </div>
-            <div class=" bg-white border mx-5 ">
+            <div class=" bg-white border border-primary mx-5 ">
                 <div class="row mx-2 py-3">Client: Finnish Pension</div>
                 <div class="row mx-2 py-3">Product:Pension Management</div>
                 <div class="d-flex flex-row-reverse text-right">
-                    <button type="button" class="btn btn-primary  mx-5 py-3">Read More</button>
+                    <button type="button" class="btn btn-primary  mx-5 py-1 mb-2">Read More</button>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="container-fluid    bg-secondary">
+    <section class="container-fluid py-3 mt-2   bg-secondary">
         <div class="row mx-5 my-4 ">
 
 
             <div class="col-md-4">
                 <div class="card">
 
-                    <div class="card-header"><i class="fa-solid fa-graduation-cap  text-center p-2"></i>Education</div>
+                    <div class="card-header border border-primary"><i class="fa-solid fa-graduation-cap  text-center py-2 px-4"></i>Education</div>
 
-                    <div class="card-body">
+                    <div class="card-body border border-primary">
                         <div class=" pr-2 ">
-                            2012 &nbsp Bachelor of Engineering<br>
-                            (Electronics Design Technology)<br>
-                            From <br>
-                            Nagpur
+                            <span class="py-5 px-3">2012</span> <span class="text-wrap"> Bachelor of Engineering
+                            (Electronics Design Technology)
+                            From 
+                            Nagpur</span>
                         </div>
                         <div class=" pr-2 ">2008&nbspHigher Secondary<br>
                             (Electronics Design Technology)<br>
@@ -237,10 +254,10 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header"><i class="fa-solid fa-globe text-center p-2 "></i>Language</div>
+                <div class="card ">
+                    <div class="card-header border border-primary"><i class="fa-solid fa-globe text-center py-2 px-4"></i>Language</div>
 
-                    <div class="card-body">
+                    <div class="card-body border border-primary">
                         <ul type="square">
                             <li class="px-2 py-5">English</li>
                             <li class="px-2 py-4">Hindi</li>
@@ -252,8 +269,8 @@
 
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header"><i class="fa-solid fa-globe text-center p-2 "></i>Hobbies</div>
-                    <div class="card-body">
+                    <div class="card-header border border-primary"><i class="fa-solid fa-globe text-center py-2 px-4 "></i>Hobbies</div>
+                    <div class="card-body border border-primary">
                         <ul type="square">
                             <li class="py-5 px-2">Documentation</li>
                             <li class="py-4 px-2">Investment Idea</li>
